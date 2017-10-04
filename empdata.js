@@ -2,19 +2,35 @@
   "data": [
     {
       "name": "Liu",
-      "designation": "No Job",
+      "job": "No Job",
       "salary": "$0",
-      "joining_date": "2017/07/25",
-      "office": "Beijing",
-      "extension": "6666"
+      "age": "25",
+      "location": "Beijing",
+      "code": "263343"
+    },
+    {
+      "name": "Mary",
+      "job": "Product Manager",
+      "salary": "$262,000",
+      "age": "40",
+      "location": "Seattle",
+      "code": "236666"
+    },
+    {
+      "name": "Paul",
+      "job": "Sports Star",
+      "salary": "$20,000,000",
+      "age": "31",
+      "location": "Houston",
+      "code": "214562"
     },
     {
       "name": "Quin",
-      "designation": "Gamer",
+      "job": "Gamer",
       "salary": "$842,000",
-      "joining_date": "2015/03/03",
-      "office": "Chongqin",
-      "extension": "2525"
+      "age": "23",
+      "location": "Chongqin",
+      "code": "252625"
     }
   ]
 }
