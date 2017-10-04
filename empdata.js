@@ -9,6 +9,30 @@
       "code": "263343"
     },
     {
+      "name": "Sims",
+      "job": "Farmer",
+      "salary": "$60,000",
+      "age": "65",
+      "location": "Oklahoma City",
+      "code": "561243"
+    },
+    {
+      "name": "Jayz",
+      "job": "Aritist",
+      "salary": "$2,000,000",
+      "age": "40",
+      "location": "Los Angles",
+      "code": "113313"
+    },
+    {
+      "name": "Aib",
+      "job": "Model",
+      "salary": "$100,000",
+      "age": "27",
+      "location": "Tokyo",
+      "code": "761413"
+    },
+    {
       "name": "Mary",
       "job": "Product Manager",
       "salary": "$262,000",

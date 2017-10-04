@@ -18,7 +18,7 @@
             success: function(xml) {  
              $(xml).find('CD').each(function(){  
               t.row.add( [
-                $(this).find('NAME').text(),
+                $(this).find('SINGER').text(),
                 $(this).find('TITLE').text(),
                 $(this).find('THEME').text(),
                 $(this).find('SALES').text(),
@@ -36,7 +36,7 @@
   <table id="chart" class="display" cellspacing="0" width="100%">
     <thead>
         <tr>
-            <th>Name</th>
+            <th>Singer</th>
             <th>Title</th>
             <th>Theme</th>
             <th>Sales</th>
@@ -47,7 +47,7 @@
 
     <tfoot>
         <tr>
-            <th>Name</th>
+            <th>Singer</th>
             <th>Title</th>
             <th>Theme</th>
             <th>Sales</th>
@@ -82,7 +82,7 @@ function myFunction(xml) {
   var x = xmlDoc.getElementsByTagName("CD");
   for (i = 0; i <x.length; i++) { 
     table += "<tr><td>" +
-    x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("SINGER")[0].childNodes[0].nodeValue +
     "</td><td>" +
     x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
     "</td></tr>";
